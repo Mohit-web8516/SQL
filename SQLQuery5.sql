@@ -1,11 +1,7 @@
---Retrieve customers from germany
+--Remove the column phone from the persons table
 
-/*SELECT *
-FROM customers
-WHERE country = 'Germany'*/
 
-SELECT 
-	first_name,
-	country
-FROM customers
-WHERE country = 'Germany'
+ALTER TABLE persons 
+DROP COLUMN  phone  
+
+SELECT * FROM persons
