@@ -1,4 +1,6 @@
---Retrieve customers with a score not equal to 0
-SELECT *
-FROM customers
-WHERE score !=0
+--add new column called email to the persons table
+
+ALTER TABLE persons 
+ADD work_email VARCHAR(50) NOT NULL 
+
+SELECT * FROM persons
