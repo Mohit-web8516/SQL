@@ -1,6 +1,8 @@
-/*RETRIEVE ALL CUSTOMERS AND SORT THE RESULT BY THE COUNTRY 
-AND THEN BY THE HIGHEST SCORE.*/
+--DML ---insert
 
-SELECT *
-FROM customers
-ORDER BY Country ASC, score DESC
+
+INSERT INTO customers (id,first_name,country, score)
+VALUES
+(6,'Anna','USA',NULL),
+(7,'Sam',NULL,100 )
+SELECT * FROM customers
