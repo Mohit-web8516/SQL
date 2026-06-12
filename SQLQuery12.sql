@@ -1,0 +1,10 @@
+ --DELETE ALL THE CUSTOMERS WITH AN ID GREATER THAN 5
+
+
+DELETE FROM  customers
+WHERE id > 5
+
+
+SELECT *
+ FROM  customers 
+ WHERE id > 5
