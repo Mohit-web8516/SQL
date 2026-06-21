@@ -69,7 +69,45 @@ FROM Customers
 FULL JOIN Orders
 ON Customers.customer_id = Orders.customer_id;
 
+---------------------------------------
+
+-- INNER JOIN
+-- A ∩ B
+-- Only common records
+
+
+-- LEFT JOIN
+-- A + common records
+-- (All rows from left)
+
+
+-- RIGHT JOIN
+-- B + common records
+-- (All rows from right)
+
+
+-- FULL JOIN
+-- A + B
+-- (All rows from both)
+
+
+-- CROSS JOIN
+-- A × B
+-- Cartesian Product
+
+
+-- SELF JOIN
+-- A joined with itself
 
 
 
+---------------------------------------
 
+--TRICK TO REMEMBER
+
+-- INNER JOIN  → Match Only
+-- LEFT JOIN   → Left All + Match
+-- RIGHT JOIN  → Right All + Match
+-- FULL JOIN   → Everything
+-- CROSS JOIN  → Every Combination
+-- SELF JOIN   → Same Table with Itself
