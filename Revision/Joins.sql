@@ -28,3 +28,16 @@ FROM Customers
 LEFT JOIN Orders
 ON Customers.customer_id = Orders.customer_id;
 
+
+
+--3.RIGHT JOIN
+
+--Returns all records from the right table and matching records from the left table.
+
+SELECT
+    Customers.customer_name,
+    Orders.product
+FROM Customers
+RIGHT JOIN Orders
+ON Customers.customer_id = Orders.customer_id;
+
