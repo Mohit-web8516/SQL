@@ -1,5 +1,14 @@
 -- A JOIN is used to combine rows from two or more tables based on a related column.
 
+--0. NO JOIN
+
+--Return data from tables without combining them.
+SELECT *
+FROM Customers;
+
+SELECT *
+FROM Orders;
+
 
 --1. INNER JOIN
 
@@ -40,4 +49,8 @@ SELECT
 FROM Customers
 RIGHT JOIN Orders
 ON Customers.customer_id = Orders.customer_id;
+
+
+
+
 
