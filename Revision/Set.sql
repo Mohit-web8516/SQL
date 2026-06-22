@@ -1,0 +1,1 @@
+--In SQL, a set is a collection of rows returned by a query. SQL provides set operators to combine the results of two or more SELECT statements.
