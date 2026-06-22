@@ -161,9 +161,9 @@ FROM Warehouse_B;
 
 ---
 
-# 3. INTERSECT
+-- # 3. INTERSECT
 
-Returns only common rows.
+-- Returns only common rows.
 
 ```sql
 SELECT emp_name
@@ -219,9 +219,9 @@ FROM Orders_2025;
 
 ---
 
-# 4. EXCEPT
+-- # 4. EXCEPT
 
-Returns rows present in first query but absent in second query.
+-- Returns rows present in first query but absent in second query.
 
 ```sql
 SELECT emp_name
