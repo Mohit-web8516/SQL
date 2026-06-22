@@ -25,9 +25,9 @@
 
 ---
 
-# 1. UNION
+-- # 1. UNION
 
-Combines rows from both tables and removes duplicates.
+-- Combines rows from both tables and removes duplicates.
 
 ```sql
 SELECT emp_name
@@ -91,9 +91,9 @@ FROM HR_Employees;
 
 ---
 
-# 2. UNION ALL
+-- # 2. UNION ALL
 
-Returns all rows including duplicates.
+-- Returns all rows including duplicates.
 
 ```sql
 SELECT emp_name
