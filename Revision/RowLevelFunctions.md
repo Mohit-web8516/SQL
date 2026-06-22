@@ -28,7 +28,7 @@ If a table contains 10 rows, the function is applied to each row individually an
 4. Conversion Functions
 5. General Functions
 
----
+------------------------------------
 
 # Sample Table: Employees
 
@@ -38,13 +38,13 @@ If a table contains 10 rows, the function is applied to each row individually an
 | 2      | Aman     |  45000 | HR         | 2022-08-15   |
 | 3      | Ravi     |  60000 | Sales      | 2021-05-20   |
 
----
+--------------------------------------
 
 # 1. Character Functions
 
 Character functions work with strings.
 
----
+------------------------------------
 
 ## UPPER()
 
@@ -71,7 +71,7 @@ AMAN
 RAVI
 ```
 
----
+----------------------------------
 
 ## LOWER()
 
@@ -90,7 +90,7 @@ aman
 ravi
 ```
 
----
+-----------------------------------------
 
 ## LENGTH()
 
